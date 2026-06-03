@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic Sudoku - Ultimate Brain Puzzle</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --text-color: #1f2937;
+            --light-bg: #f3f4f6;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: var(--text-color);
+            line-height: 1.6;
+            background-color: #ffffff;
+        }
+        header {
+            background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .app-icon {
+            width: 120px;
+            height: 120px;
+            border-radius: 24px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+            margin-bottom: 20px;
+            background-color: #fff; /* 아이콘 이미지가 없을 때를 대비한 기본 배경 */
+        }
+        h1 { margin: 0 0 10px 0; font-size: 2.5em; font-weight: 800; }
+        .tagline { font-size: 1.2em; opacity: 0.9; margin-bottom: 30px; }
+        
+        .btn-google-play {
+            display: inline-block;
+            background-color: #000000;
+            color: white;
+            text-decoration: none;
+            padding: 12px 28px;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: transform 0.2s, background-color 0.2s;
+            border: 1px solid #333;
+        }
+        .btn-google-play:hover {
+            transform: translateY(-2px);
+            background-color: #111111;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, min-max(280px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        .feature-card {
+            background: var(--light-bg);
+            padding: 25px;
+            border-radius: 16px;
+            text-align: center;
+        }
+        .feature-card h3 { margin-top: 0; color: #1e3a8a; font-size: 1.3em; }
+        
+        footer {
+            background-color: #111827;
+            color: #9ca3af;
+            text-align: center;
+            padding: 40px 20px;
+            margin-top: 60px;
+            font-size: 0.9em;
+        }
+        footer a {
+            color: #3b82f6;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div style="font-size: 4em; margin-bottom: 10px;">🧩</div> 
+        <h1>Classic Sudoku</h1>
+        <p class="tagline">Train your brain anytime, anywhere with the ultimate Sudoku puzzle game.</p>
+        
+        <a href="https://play.google.com/store" target="_blank" class="btn-google-play">
+            GET IT ON Google Play
+        </a>
+    </header>
+
+    <div class="container">
+        <h2 style="text-align: center; font-size: 2em; margin-bottom: 40px;">Game Features</h2>
+        
+        <div class="features">
+            <div class="feature-card">
+                <h3>Four Difficulty Levels</h3>
+                <p>Whether you are a beginner or an advanced grandmaster, enjoy perfectly balanced puzzles from Easy, Medium, Hard, to Expert.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Smart Note-Taking</h3>
+                <p>Turn on pencil mode to make notes just like solving on real paper. Keep track of possible numbers easily.</p>
+            </div>
